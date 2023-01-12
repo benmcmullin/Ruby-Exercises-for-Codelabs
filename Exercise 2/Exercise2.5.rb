@@ -1,0 +1,7 @@
+name = "Ben"
+word = "Encyclopedia"
+puts "I have #{name.length} characters in my name."
+puts "This is my friend, #{name.sub("Ben", "Jack")}."
+puts "Encyclopedia has #{word.count('c')} c's in it!"
+puts "#{name.upcase} is my name in all Capitals."
+puts "#{name.reverse} is my name in reverse!"
