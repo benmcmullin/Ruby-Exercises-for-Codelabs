@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/Oscar/winning/films/version"
+require_relative "lib/version.rb"
 
 Gem::Specification.new do |spec|
   spec.name = "Oscar-winning-films"
