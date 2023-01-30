@@ -1,0 +1,214 @@
+Started GET "/" for ::1 at 2023-01-30 14:09:25 -0600
+  
+SyntaxError (C:/Users/Ben/Desktop/Codelabs/Code Labs Exercises/Ruby-Exercises/Rails-Exercises-for-Codelabs/Exercise_1/Rails-Exercise-1/app/controllers/jobs_controller.rb:1: syntax error, unexpected '>'
+class JobsController > ApplicationController
+                     ^
+):
+  
+app/controllers/jobs_controller.rb:1: syntax error, unexpected '>'
+app/controllers/jobs_controller.rb:1: syntax error, unexpected '>'
+app/controllers/jobs_controller.rb:1: syntax error, unexpected '>'
+Started GET "/" for ::1 at 2023-01-30 14:09:38 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 408.2ms | Allocations: 86046)
+Completed 500 Internal Server Error in 437ms (Allocations: 88567)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/Ben/Desktop/Codelabs/Code Labs Exercises/Ruby-Exercises/Rails-Exercises-for-Codelabs/Exercise_1/Rails-Exercise-1/tmp/cache/assets/sprockets/v4.0.0/BK/BKddIh3p-IQEjvJjYEjk_AYmnMeOU_NF-InlwF-x2sA.cache.28700.17448.740412, C:/Users/Ben/Desktop/Codelabs/Code Labs Exercises/Ruby-Exercises/Rails-Exercises-for-Codelabs/Exercise_1/Rails-Exercise-1/tmp/cache/assets/sprockets/v4.0.0/BK/BKddIh3p-IQEjvJjYEjk_AYmnMeOU_NF-InlwF-x2sA.cache)):
+  
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.2.0) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.2.0) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.2.0) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.2.0) lib/sprockets/loader.rb:263:in `store_asset'
+sprockets (4.2.0) lib/sprockets/loader.rb:226:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.2.0) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.2.0) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.2.0) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.2.0) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.2.0) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.2.0) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `block in load'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:204:in `block in fetch_or_store'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:184:in `fetch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/map.rb:203:in `fetch_or_store'
+sprockets (4.2.0) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.2.0) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.2.0) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.2.0) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `block in synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:48:in `synchronize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:22:in `execute'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `run_task'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:343:in `block (3 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `loop'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block (2 levels) in create_worker'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `catch'
+concurrent-ruby (1.2.0) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:333:in `block in create_worker'
+Started GET "/" for ::1 at 2023-01-30 14:13:40 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 106)
+  Rendered layout layouts/application.html.erb (Duration: 69.5ms | Allocations: 38386)
+Completed 200 OK in 80ms (Views: 74.9ms | Allocations: 39239)
+
+
+Started GET "/" for ::1 at 2023-01-30 14:13:50 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3330)
+Completed 200 OK in 20ms (Views: 16.4ms | Allocations: 4151)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:18:53 -0600
+  
+SyntaxError (C:/Users/Ben/Desktop/Codelabs/Code Labs Exercises/Ruby-Exercises/Rails-Exercises-for-Codelabs/Exercise_1/Rails-Exercise-1/config/routes.rb:6: syntax error, unexpected local variable or method, expecting `end'
+   get "/jobs" to: "jobs#jobs"
+               ^~
+):
+  
+config/routes.rb:6: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:6: syntax error, unexpected local variable or method, expecting `end'
+config/routes.rb:6: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/jobs" for ::1 at 2023-01-30 14:19:27 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layout layouts/application.html.erb (Duration: 30.2ms | Allocations: 17221)
+Completed 200 OK in 40ms (Views: 36.2ms | Allocations: 18126)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:29:10 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.7ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 17193)
+Completed 200 OK in 44ms (Views: 39.7ms | Allocations: 18149)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:31:47 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/jobs"):
+  
+Started GET "/jobs" for ::1 at 2023-01-30 14:33:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/jobs"):
+  
+Started GET "/jobs" for ::1 at 2023-01-30 14:35:17 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.7ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 17260)
+Completed 200 OK in 50ms (Views: 45.6ms | Allocations: 18214)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:40:57 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.8ms | Allocations: 162)
+  Rendered shared/_nav.html.erb (Duration: 1.4ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3731)
+Completed 200 OK in 25ms (Views: 20.7ms | Allocations: 4582)
+
+
+Started GET "/" for ::1 at 2023-01-30 14:40:59 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 80)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2937)
+Completed 200 OK in 15ms (Views: 11.6ms | Allocations: 3285)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:41:00 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_nav.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2897)
+Completed 200 OK in 13ms (Views: 8.9ms | Allocations: 3214)
+
+
+Started GET "/" for ::1 at 2023-01-30 14:41:00 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2883)
+Completed 200 OK in 12ms (Views: 9.1ms | Allocations: 3157)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:41:01 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_nav.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 2900)
+Completed 200 OK in 14ms (Views: 9.6ms | Allocations: 3213)
+
+
+Started GET "/" for ::1 at 2023-01-30 14:41:01 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.4ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2868)
+Completed 200 OK in 12ms (Views: 9.2ms | Allocations: 3142)
+
+
+Started GET "/jobs" for ::1 at 2023-01-30 14:41:02 -0600
+Processing by JobsController#jobs as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/jobs.html.erb within layouts/application
+  Rendered jobs/jobs.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_nav.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2906)
+Completed 200 OK in 13ms (Views: 9.0ms | Allocations: 3221)
+
+
+Started GET "/" for ::1 at 2023-01-30 14:41:02 -0600
+Processing by JobsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering jobs/index.html.erb within layouts/application
+  Rendered jobs/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.1ms | Allocations: 69)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2877)
+Completed 200 OK in 13ms (Views: 9.8ms | Allocations: 3151)
+
+
