@@ -456,3 +456,548 @@ Processing by PagesController#blog as HTML
 Completed 200 OK in 12ms (Views: 8.1ms | Allocations: 3372)
 
 
+Started GET "/" for ::1 at 2023-01-30 16:38:34 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 305)
+  Rendered shared/_nav.html.erb (Duration: 0.8ms | Allocations: 541)
+  Rendered layout layouts/application.html.erb (Duration: 253.4ms | Allocations: 54544)
+Completed 200 OK in 276ms (Views: 261.7ms | ActiveRecord: 0.0ms | Allocations: 57785)
+
+
+Started GET "/about_us" for ::1 at 2023-01-30 16:38:46 -0600
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.5ms | Allocations: 102)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3385)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3805)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:38:47 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3098)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3379)
+
+
+Started GET "/about_us" for ::1 at 2023-01-30 16:38:47 -0600
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3109)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3390)
+
+
+Started GET "/contact_us" for ::1 at 2023-01-30 16:38:48 -0600
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.5ms | Allocations: 81)
+  Rendered shared/_nav.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3163)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3494)
+
+
+Started GET "/terms" for ::1 at 2023-01-30 16:38:48 -0600
+Processing by PagesController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms.html.erb within layouts/application
+  Rendered pages/terms.html.erb within layouts/application (Duration: 0.5ms | Allocations: 81)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3183)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3519)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:38:48 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.5ms | Allocations: 81)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3166)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3497)
+
+
+Started GET "/course_catalog" for ::1 at 2023-01-30 16:38:49 -0600
+Processing by PagesController#course_catalog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/course_catalog.html.erb within layouts/application
+  Rendered pages/course_catalog.html.erb within layouts/application (Duration: 0.4ms | Allocations: 81)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3151)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 3483)
+
+
+Started GET "/testimonials" for ::1 at 2023-01-30 16:38:50 -0600
+Processing by PagesController#testimonials as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/testimonials.html.erb within layouts/application
+  Rendered pages/testimonials.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3152)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 3484)
+
+
+Started GET "/blog" for ::1 at 2023-01-30 16:38:50 -0600
+Processing by PagesController#blog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/blog.html.erb within layouts/application
+  Rendered pages/blog.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3197)
+Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3530)
+
+
+Started GET "/testimonials" for ::1 at 2023-01-30 16:39:01 -0600
+Processing by PagesController#testimonials as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/testimonials.html.erb within layouts/application
+  Rendered pages/testimonials.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3080)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3357)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:39:13 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3096)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3373)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:39:13 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3093)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3370)
+
+
+Started GET "/terms" for ::1 at 2023-01-30 16:39:14 -0600
+Processing by PagesController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms.html.erb within layouts/application
+  Rendered pages/terms.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3088)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3365)
+
+
+Started GET "/contact_us" for ::1 at 2023-01-30 16:39:14 -0600
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3069)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3346)
+
+
+Started GET "/about_us" for ::1 at 2023-01-30 16:39:15 -0600
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3077)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3354)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:39:16 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3071)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3348)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:39:53 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 3092)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 3369)
+
+
+Started GET "/about_us" for ::1 at 2023-01-30 16:39:54 -0600
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3077)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3354)
+
+
+Started GET "/terms" for ::1 at 2023-01-30 16:39:54 -0600
+Processing by PagesController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms.html.erb within layouts/application
+  Rendered pages/terms.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3096)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3373)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:39:55 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3090)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3367)
+
+
+Started GET "/course_catalog" for ::1 at 2023-01-30 16:39:56 -0600
+Processing by PagesController#course_catalog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/course_catalog.html.erb within layouts/application
+  Rendered pages/course_catalog.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3099)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 3376)
+
+
+Started GET "/testimonials" for ::1 at 2023-01-30 16:39:56 -0600
+Processing by PagesController#testimonials as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/testimonials.html.erb within layouts/application
+  Rendered pages/testimonials.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3083)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 3360)
+
+
+Started GET "/blog" for ::1 at 2023-01-30 16:39:56 -0600
+Processing by PagesController#blog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/blog.html.erb within layouts/application
+  Rendered pages/blog.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3109)
+Completed 200 OK in 12ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3382)
+
+
+Started GET "/testimonials" for ::1 at 2023-01-30 16:39:57 -0600
+Processing by PagesController#testimonials as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/testimonials.html.erb within layouts/application
+  Rendered pages/testimonials.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3084)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 3361)
+
+
+Started GET "/course_catalog" for ::1 at 2023-01-30 16:39:57 -0600
+Processing by PagesController#course_catalog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/course_catalog.html.erb within layouts/application
+  Rendered pages/course_catalog.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3091)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3368)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:39:57 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3088)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3365)
+
+
+Started GET "/course_catalog" for ::1 at 2023-01-30 16:40:23 -0600
+Processing by PagesController#course_catalog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/course_catalog.html.erb within layouts/application
+  Rendered pages/course_catalog.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3105)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3382)
+
+
+Started GET "/course_catalog" for ::1 at 2023-01-30 16:40:25 -0600
+Processing by PagesController#course_catalog as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/course_catalog.html.erb within layouts/application
+  Rendered pages/course_catalog.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3089)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3366)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:40:26 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3080)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3357)
+
+
+Started GET "/contact_us" for ::1 at 2023-01-30 16:40:26 -0600
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3099)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3376)
+
+
+Started GET "/contact_us" for ::1 at 2023-01-30 16:40:26 -0600
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3110)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3387)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:40:27 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.3ms | Allocations: 231)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3080)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3357)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:43:11 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 110)
+  Rendered shared/_nav.html.erb (Duration: 8.4ms | Allocations: 5683)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 23121)
+Completed 500 Internal Server Error in 48ms (Allocations: 24041)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hello_path' for #<ActionView::Base:0x0000000000f488>
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^
+Did you mean?  Hello_path):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:43:24 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_nav.html.erb (Duration: 1.4ms | Allocations: 2907)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6395)
+Completed 500 Internal Server Error in 18ms (Allocations: 7178)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000001e460940188>::Hello_path
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', Hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', Hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:43:44 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_nav.html.erb (Duration: 7.4ms | Allocations: 5324)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 8812)
+Completed 500 Internal Server Error in 25ms (Allocations: 9592)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hello_path' for #<ActionView::Base:0x0000000000fb68>
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^
+Did you mean?  Hello_path):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:43:52 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_nav.html.erb (Duration: 7.0ms | Allocations: 5328)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 8816)
+Completed 500 Internal Server Error in 27ms (Allocations: 9596)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `hello_path' for #<ActionView::Base:0x0000000000fed8>
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^
+Did you mean?  Hello_path):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:44:05 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_nav.html.erb (Duration: 1.5ms | Allocations: 2899)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 6387)
+Completed 500 Internal Server Error in 19ms (Allocations: 7167)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000001e46174b408>::Hello_path
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', Hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', Hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:44:21 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered shared/_nav.html.erb (Duration: 1.1ms | Allocations: 2638)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 19691)
+Completed 500 Internal Server Error in 31ms (Allocations: 20279)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x000001e46174b408>::Hello_path
+
+<li>'.freeze;@output_buffer.append=( link_to 'Hello', Hello_path );@output_buffer.safe_append='</li>
+                                                      ^^^^^^^^^^):
+     7: <li><%= link_to 'Course Catalog', course_catalog_path %></li>
+     8: <li><%= link_to 'Testimonials', testimonials_path %></li>
+     9: <li><%= link_to 'Blogs', blog_path %></li>
+    10: <li><%= link_to 'Hello', Hello_path %></li>
+    11: </ul>
+  
+app/views/shared/_nav.html.erb:10
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2023-01-30 16:44:29 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+  Rendered shared/_nav.html.erb (Duration: 0.6ms | Allocations: 516)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4007)
+Completed 200 OK in 18ms (Views: 14.5ms | Allocations: 4822)
+
+
+Started GET "/hello" for ::1 at 2023-01-30 16:44:34 -0600
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3182)
+Completed 200 OK in 12ms (Views: 8.8ms | Allocations: 3528)
+
+
+Started GET "/terms" for ::1 at 2023-01-30 16:44:47 -0600
+Processing by PagesController#terms as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms.html.erb within layouts/application
+  Rendered pages/terms.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 3180)
+Completed 200 OK in 13ms (Views: 9.2ms | Allocations: 3507)
+
+
+Started GET "/" for ::1 at 2023-01-30 16:44:49 -0600
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3107)
+Completed 200 OK in 11ms (Views: 8.5ms | Allocations: 3381)
+
+
+Started GET "/about_us" for ::1 at 2023-01-30 16:44:50 -0600
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3184)
+Completed 200 OK in 12ms (Views: 8.5ms | Allocations: 3511)
+
+
+Started GET "/contact_us" for ::1 at 2023-01-30 16:44:52 -0600
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3190)
+Completed 200 OK in 11ms (Views: 7.9ms | Allocations: 3517)
+
+
+Started GET "/policy" for ::1 at 2023-01-30 16:44:53 -0600
+Processing by PagesController#policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/policy.html.erb within layouts/application
+  Rendered pages/policy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+  Rendered shared/_nav.html.erb (Duration: 0.2ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3183)
+Completed 200 OK in 12ms (Views: 7.9ms | Allocations: 3510)
+
+
+Started GET "/eqeqweqwedq3wdasd" for ::1 at 2023-01-30 16:45:18 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/eqeqweqwedq3wdasd"):
+  

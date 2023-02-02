@@ -45,4 +45,8 @@ class PagesController < ApplicationController
             puts @blog_array
             render 'blog'
     end
+
+    def hello
+        
+    end
 end

@@ -11,4 +11,5 @@ Rails.application.routes.draw do
    get '/course_catalog', to: 'pages#course_catalog'
    get '/testimonials', to: 'pages#testimonials'
    get '/blog', to: 'pages#blog'
+   get '/hello', to: 'pages#hello'
 end
