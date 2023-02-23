@@ -4,10 +4,9 @@
         <h2><%= link_to job.title, job.url %></h2>
         <p><%= job.company %></p>
         <h5><%= link_to "Edit Posting", edit_job_path(job)%></h5>
+        <h5><%= link_to 'Delete Posting', job_path(:id), method: :delete, data: {confirm: "Are you sure?"} %></h5>
     </div>
 <% end %>
 
 <p> <%= link_to "Add a job", new_job_path %></p>
-<p> <%= link_to 'Delete', job_path(:id),
-  method: :delete, data: {confirm: "Are you sure?"} %></p>
 <p> <%= paginate @jobs %></p>

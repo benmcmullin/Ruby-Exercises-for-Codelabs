@@ -28,7 +28,7 @@ class JobsController < ApplicationController
   end
 
   def show
-    @jobs = Job.find(params[:id])
+    @job = Job.all
   end
 
   def update
