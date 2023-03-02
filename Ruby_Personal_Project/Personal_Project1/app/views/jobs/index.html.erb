@@ -1,4 +1,12 @@
 <h1>Available Jobs</h1>
+
+<% if @user %>
+    Logged in as: <%= @user.email %>
+<% end %>
+
+<%= button_to "Logout", logout_path, method: :delete %>
+
+
 <% @jobs.each do |job| %>
     <div class="job">
         <h2><%= link_to job.title, job.url %></h2>

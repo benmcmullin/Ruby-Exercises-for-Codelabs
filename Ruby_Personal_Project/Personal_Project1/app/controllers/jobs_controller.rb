@@ -1,6 +1,9 @@
 class JobsController < ApplicationController
   def index
     @jobs = Job.page(params[:page]).per(25)
+    if session[:user_id]
+      @user = User.find(session[:user_id])
+    end
   end
 
   def new
