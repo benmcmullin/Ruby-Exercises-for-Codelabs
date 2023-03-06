@@ -2,9 +2,9 @@
 
 <% if @user %>
     Logged in as: <%= @user.email %>
+<%= button_to "Logout", logout_path, method: :delete %>
 <% end %>
 
-<%= button_to "Logout", logout_path, method: :delete %>
 
 
 <% @jobs.each do |job| %>
